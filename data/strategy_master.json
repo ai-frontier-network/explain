@@ -1,0 +1,60 @@
+{
+  "ai_tech_pillar": {
+    "keyword_trigger": "AI",
+    "seo_keywords": ["AI 時代 生き残る仕事", "生成AI 仕組み わかりやすく", "AIエージェント 実務活用"],
+    "trust_links": [
+      {
+        "title": "内閣府：人間中心のAI社会原則",
+        "url": "https://www.cao.go.jp/"
+      },
+      {
+        "title": "情報処理推進機構 (IPA)：AI社会実装のガイドライン",
+        "url": "https://www.ipa.go.jp/"
+      }
+    ]
+  },
+  "it_infrastructure": {
+    "keyword_trigger": "IT",
+    "seo_keywords": ["IT用語 初心者 わかりやすく", "クラウド 仕組み 比較", "セキュリティ 基本 対策"],
+    "trust_links": [
+      {
+        "title": "総務省：国民のための情報セキュリティサイト",
+        "url": "https://www.soumu.go.jp/"
+      },
+      {
+        "title": "経済産業省：デジタルトランスフォーメーション推進",
+        "url": "https://www.meti.go.jp/"
+      }
+    ]
+  },
+  "side_business_pillar": {
+    "keyword_trigger": "副業",
+    "seo_keywords": ["サラリーマン 副業 2026", "リスキリング 40代", "ブログ 個人開発 収益化"],
+    "trust_links": [
+      {
+        "title": "厚生労働省：副業・兼業の促進に関するガイドライン",
+        "url": "https://www.mhlw.go.jp/"
+      }
+    ]
+  },
+  "mental_healling_and_zen": {
+    "keyword_trigger": "メンタル",
+    "seo_keywords": ["マインドフルネス 効果", "デジタルデトックス やり方", "HSP 生きづらい 対策"],
+    "trust_links": [
+      {
+        "title": "厚生労働省：こころの耳（働く人のメンタルヘルス・ポータル）",
+        "url": "https://kokoro.mhlw.go.jp/"
+      }
+    ]
+  },
+  "decision_making_os": {
+    "keyword_trigger": "意思決定",
+    "seo_keywords": ["合理的な選択 方法", "情報過多 疲れた", "人生の選択 迷う"],
+    "trust_links": [
+      {
+        "title": "OECD：未来の教育とスキル2030プロジェクト",
+        "url": "https://www.oecd.org/"
+      }
+    ]
+  }
+}
