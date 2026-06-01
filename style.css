@@ -1,0 +1,144 @@
+/* 変数定義 (Light / Dark mode両対応) */
+:root {
+    --bg-color: #ffffff;
+    --bg-accent: #f8fafc;
+    --text-color: #0f172a;
+    --text-muted: #475569;
+    --accent-color: #1e293b; 
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --btn-bg: #0f172a;
+    --btn-text: #ffffff;
+    --tag-bg: rgba(15, 23, 42, 0.05);
+    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+[data-theme="dark"] {
+    --bg-color: #0b0f19;
+    --bg-accent: #111827;
+    --text-color: #f3f4f6;
+    --text-muted: #9ca3af;
+    --accent-color: #38bdf8;
+    --card-bg: #1f2937;
+    --border-color: #374151;
+    --btn-bg: #ffffff;
+    --btn-text: #0f172a;
+    --tag-bg: rgba(255, 255, 255, 0.08);
+}
+
+/* リセット & ベース */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+    font-family: var(--font-sans);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.8;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent-color); text-decoration: none; transition: color 0.2s; }
+a:hover { text-decoration: underline; }
+.container { max-width: 800px; margin: 0 auto; padding: 0 24px; }
+
+/* ヘッダー & ナビゲーション */
+.site-header {
+    border-bottom: 1px solid var(--border-color);
+    padding: 24px 0;
+    margin-bottom: 40px;
+}
+.header-inner { display: flex; justify-content: space-between; align-items: center; }
+.header-left { display: flex; align-items: center; gap: 30px; }
+.site-title a { font-size: 1.4rem; font-weight: 800; color: var(--text-color); letter-spacing: -0.03em; }
+.main-nav ul { display: flex; list-style: none; gap: 20px; }
+.main-nav a { color: var(--text-muted); font-size: 0.95rem; font-weight: 600; }
+.main-nav a:hover { color: var(--text-color); text-decoration: none; }
+
+/* テーマ切り替えボタン */
+#theme-toggle {
+    background: none; border: none; color: var(--text-color); cursor: pointer;
+    padding: 8px; border-radius: 50%; transition: background-color 0.2s;
+    display: flex; align-items: center; justify-content: center;
+}
+#theme-toggle:hover { background-color: var(--tag-bg); }
+
+/* 三層構造レイアウト：上層（ヒーロー・3秒エリア） */
+.hero-section { margin-bottom: 40px; }
+.hero-badge { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; font-size: 0.85rem; }
+.intent-badge { background-color: var(--btn-bg); color: var(--btn-text); padding: 2px 10px; border-radius: 999px; font-weight: 800; font-size: 0.75rem; letter-spacing: 0.05em; }
+.hero-date { color: var(--text-muted); font-weight: 600; }
+.hero-title { font-size: 2.2rem; font-weight: 800; line-height: 1.35; margin-bottom: 25px; letter-spacing: -0.03em; }
+
+.instant-answer-box { background-color: var(--bg-accent); border-left: 4px solid var(--btn-bg); padding: 20px; border-radius: 0 12px 12px 0; margin-bottom: 30px; }
+.box-label { font-size: 0.75rem; font-weight: 800; color: var(--text-muted); display: block; margin-bottom: 6px; letter-spacing: 0.05em; }
+.instant-answer-text { font-size: 1.15rem; line-height: 1.6; font-weight: 700; }
+
+/* 三層構造レイアウト：中層（30秒エリア） */
+.deep-dive-section { margin-bottom: 50px; }
+.content-card { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 16px; padding: 30px; margin-bottom: 35px; box-shadow: 0 4px 20px rgba(0,0,0,0.01); }
+.content-card h3, .cocoro-insight-card h3 { font-size: 1.25rem; font-weight: 800; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+.summary-detail-text { font-size: 1.05rem; line-height: 1.85; text-align: justify; }
+
+/* 三層構造レイアウト：下層（2分エリア：コラム＆ミッション） */
+.cocoro-insight-card { background-color: var(--bg-accent); border: 1px solid var(--border-color); border-radius: 16px; padding: 30px; margin-bottom: 40px; }
+.cocoro-text { font-size: 1rem; line-height: 1.8; margin-bottom: 24px; text-align: justify; font-style: italic; }
+.today-mission-box { background-color: var(--card-bg); border: 1px dashed var(--border-color); padding: 20px; border-radius: 12px; }
+.mission-title { font-size: 0.85rem; font-weight: 800; display: block; margin-bottom: 8px; color: var(--text-color); }
+.mission-text { font-size: 1rem; font-weight: 600; line-height: 1.6; }
+
+.source-link { font-size: 0.9rem; font-weight: 700; text-decoration: underline; }
+
+.section-divider { border: 0; height: 1px; background: var(--border-color); margin: 50px 0; }
+
+/* 記事一覧グリッド（トップ・アーカイブ） */
+.grid-section { margin-bottom: 60px; }
+.section-title { font-size: 1.4rem; font-weight: 800; margin-bottom: 30px; letter-spacing: -0.02em; }
+.articles-grid { display: flex; flex-direction: column; gap: 20px; }
+.article-card { background: var(--card-bg); border: 1px solid var(--border-color); padding: 28px; border-radius: 16px; transition: transform 0.2s, box-shadow 0.2s; }
+.article-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.02); }
+.article-meta { display: flex; gap: 16px; color: var(--text-muted); font-size: 0.8rem; margin-bottom: 12px; font-weight: 600; align-items: center; }
+.article-card h3 { font-size: 1.25rem; margin-bottom: 10px; font-weight: 800; line-height: 1.45; }
+.article-card p { font-size: 0.95rem; color: var(--text-muted); margin-bottom: 18px; line-height: 1.6; }
+.article-card a { font-weight: 700; font-size: 0.9rem; }
+
+/* ボタンUI（アーカイブへのリンク等） */
+.toggle-button {
+    display: inline-block;
+    background: var(--btn-bg);
+    color: var(--btn-text);
+    padding: 12px 28px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.95rem;
+    transition: all 0.2s;
+    border: none;
+}
+.toggle-button:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+
+/* フッター */
+.site-footer { padding: 50px 0 40px; text-align: center; color: var(--text-muted); font-size: 0.85rem; border-top: 1px solid var(--border-color); }
+
+/* フェードインアニメーション */
+.hidden { opacity: 0; transform: translateY(20px); transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1); }
+.show { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 768px) {
+    .header-left { flex-direction: column; align-items: flex-start; gap: 15px; }
+    .hero-title { font-size: 1.7rem; }
+    .article-card { padding: 20px; }
+    .toggle-button { width: 100%; text-align: center; }
+}
+
+/* --- プチ書籍（Weekly Book）の章ごとの美しい余白設定 --- */
+.book-content-body h3 { 
+    margin-top: 50px; 
+    margin-bottom: 20px; 
+    border-bottom: 1.5px solid var(--border-color); 
+    padding-bottom: 8px; 
+}
+.book-content-body p { 
+    margin-bottom: 25px; 
+}
