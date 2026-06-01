@@ -1,0 +1,98 @@
+<article class="explain-card fade-element">
+    <!-- パンくずリスト -->
+    <nav class="breadcrumb-nav" style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 20px; font-weight: 600;">
+        <a href="../index.html" style="color: var(--text-muted); text-decoration: none;">Home</a> &gt; 
+        <span class="category-link" style="color: var(--text-muted);">{{CATEGORY}}</span> &gt; 
+        <span class="cluster-link" style="color: var(--text-muted);">{{TOPIC_CLUSTER}}</span> &gt; 
+        <span style="color: var(--text-color);">{{TITLE}}</span>
+    </nav>
+
+    <div class="article-meta-header" style="display: flex; gap: 12px; align-items: center; margin-bottom: 20px; font-size: 0.85rem; flex-wrap: wrap;">
+        <span class="intent-badge">{{SEARCH_INTENT}}</span>
+        <span class="article-type-tag" style="background: var(--tag-bg); color: var(--text-color); padding: 2px 10px; border-radius: 4px; font-weight: 700;">{{ARTICLE_TYPE}}</span>
+        <span class="difficulty-tag" style="border: 1px solid var(--border-color); padding: 2px 8px; border-radius: 4px; font-weight: 700; color: var(--accent-color);">{{DIFFICULTY_LEVEL}}</span>
+        <span class="read-time-tag" style="color: var(--text-muted); font-weight: 600;">⏱️ 読了目安: {{ESTIMATED_READ_TIME}}分</span>
+    </div>
+    
+    <h2 class="article-main-title" style="font-size: 2rem; font-weight: 800; line-height: 1.4; margin-bottom: 30px; color: var(--text-color);">{{TITLE}}</h2>
+
+    <!-- 30秒でわかる結論 -->
+    <div class="quick-summary-box" style="background: var(--bg-accent); border: 2px solid var(--border-color); padding: 25px; border-radius: 16px; margin-bottom: 35px; box-shadow: 0 4px 15px rgba(0,0,0,0.02);">
+        <span style="font-size: 0.8rem; font-weight: 800; background: var(--btn-bg); color: var(--btn-text); padding: 4px 12px; border-radius: 999px; display: inline-block; margin-bottom: 15px; letter-spacing: 0.05em;">⚡ 30秒で掴む結論</span>
+        <p style="font-size: 1.2rem; font-weight: 800; margin-bottom: 15px; line-height: 1.5; color: var(--text-color);">{{QUICK_DEFINITION}}</p>
+        
+        <div class="quick-grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px; border-top: 1px solid var(--border-color); padding-top: 15px; font-size: 0.95rem;">
+            <div>
+                <strong>👥 対象読者:</strong> <span style="color: var(--text-muted);">{{QUICK_TARGET}}</span>
+            </div>
+            <div>
+                <strong>🏆 重要度:</strong> <span style="color: var(--accent-color); font-weight: 800;">{{QUICK_IMPORTANCE}}</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 一言でいうと -->
+    <div class="summary-punch-box" style="background: var(--btn-bg); color: var(--btn-text); padding: 15px 20px; border-radius: 12px; margin-bottom: 35px;">
+        <span style="font-size: 0.75rem; font-weight: 800; opacity: 0.8; display: block; margin-bottom: 4px; letter-spacing: 0.05em;">💡 一言でいうと？</span>
+        <p style="font-size: 1.2rem; font-weight: 800; margin: 0;">{{ONE_WORD_SUMMARY}}</p>
+    </div>
+
+    <!-- 概念理解：理解のグラデーション -->
+    <section class="explain-section" style="margin-bottom: 50px;">
+        <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 8px;">🧭 この言葉・違いの本質を掴む</h3>
+        
+        <div class="level-box" style="background: var(--bg-accent); border-left: 4px solid #f59e0b; padding: 20px; border-radius: 0 12px 12px 0; margin-bottom: 20px;">
+            <span style="font-size: 0.8rem; font-weight: 800; color: #d97706; display: block; margin-bottom: 6px;">🎒 5歳児でもわかる例え話</span>
+            <p style="font-size: 1.1rem; font-weight: 700; margin: 0; line-height: 1.5;">{{EXPLAIN_LEVEL_1}}</p>
+        </div>
+
+        <div class="level-box" style="background: var(--card-bg); border: 1px solid var(--border-color); padding: 25px; border-radius: 16px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.01);">
+            <h4 style="font-size: 1.1rem; font-weight: 800; margin-top: 0; margin-bottom: 12px; color: var(--text-color);">🏫 簡単にいうと？（中学生向け）</h4>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-color); margin: 0; text-align: justify;">{{EXPLAIN_LEVEL_2}}</p>
+        </div>
+
+        <div class="level-box" style="background: var(--card-bg); border: 1px solid var(--border-color); padding: 25px; border-radius: 16px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.01);">
+            <h4 style="font-size: 1.1rem; font-weight: 800; margin-top: 0; margin-bottom: 12px; color: var(--text-color);">💼 つまりどういうこと？（社会人向け）</h4>
+            <p style="font-size: 1rem; line-height: 1.85; color: var(--text-color); margin: 0; text-align: justify;">{{EXPLAIN_LEVEL_3}}</p>
+        </div>
+    </section>
+
+    <!-- 立場別実践メリット -->
+    <section class="persona-benefit-section" style="margin-bottom: 50px;">
+        <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 8px;">🚀 立場に合わせて今日から活かす</h3>
+        {{PERSONA_BENEFITS_HTML}}
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq-section" style="margin-bottom: 50px;">
+        <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 8px;">❓ よくある質問（FAQ）</h3>
+        {{FAQ_LIST_HTML}}
+    </section>
+
+    <!-- 編集長cocoroの眼 -->
+    <div class="cocoro-insight-card" style="background: var(--bg-accent); border: 1px solid var(--border-color); padding: 25px; border-radius: 16px; margin-bottom: 40px;">
+        <h3 style="font-size: 1.2rem; font-weight: 800; margin-top: 0; margin-bottom: 15px; color: var(--text-color); display: flex; align-items: center; gap: 8px;">👁️ 編集長cocoroの眼</h3>
+        <p style="font-size: 1rem; line-height: 1.8; color: var(--text-color); margin-bottom: 20px; text-align: justify; font-style: italic;">{{CHARO_INSIGHT}}</p>
+        
+        <div class="today-mission-box" style="background: var(--card-bg); padding: 20px; border-radius: 12px; border: 1px dashed var(--border-color);">
+            <span style="font-size: 0.85rem; font-weight: 800; color: var(--text-color); display: block; margin-bottom: 6px;">💡 明日からの具体的ミッション</span>
+            <p style="font-size: 0.95rem; line-height: 1.6; color: var(--text-color); margin: 0; font-weight: 600;">{{TODAY_MISSION}}</p>
+        </div>
+    </div>
+
+    <!-- 🆕 学習ロードマップ・関連記事 -->
+    <section class="roadmap-section" style="margin-bottom: 50px;">
+        <h3 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 8px;">🗺️ 体系的に学ぶロードマップ（関連記事）</h3>
+        <div class="articles-grid">
+            {{RELATED_ARTICLES_HTML}}
+        </div>
+    </section>
+
+    <div style="text-align: center; margin: 40px 0;">
+        <a href="{{SOURCE_URL}}" target="_blank" rel="noopener" class="source-link" style="font-weight: 700; color: var(--text-color); text-decoration: underline;">一次情報ソース：{{SOURCE_NAME}} &rarr;</a>
+    </div>
+    
+    <div style="text-align: center; margin-top: 50px;">
+        <a href="../index.html" style="font-size: 0.95rem; color: var(--text-muted); text-decoration: none; font-weight: 600;">&larr; トップページに戻る</a>
+    </div>
+</article>
