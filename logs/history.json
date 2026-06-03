@@ -28,5 +28,15 @@
     "url": "https://www.cnbc.com/2026/06/02/palo-alto-ceo-customer-meeting-requests-surged-ai-security-concerns.html",
     "processed_at": "2026-06-03T03:49:48.013046",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/03/where-jim-cramer-stands-on-crowdstrike-and-broadcom-ahead-of-earnings.html",
+    "processed_at": "2026-06-03T16:43:20.686873",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/03/uber-layoffs-people-division-ai.html",
+    "processed_at": "2026-06-03T16:43:34.210160",
+    "status": "published"
   }
 ]
