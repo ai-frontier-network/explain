@@ -2,7 +2,7 @@ name: AI Article & Book Generator (Survival OS)
 
 on:
   schedule:
-    - cron: '0 0,12 * * *'  # 毎日日本時間の朝9時と夜9時（UTC 0,12）に自動巡回
+    - cron: '0 0 * * *'  # 毎日日本時間の朝9時と夜9時（UTC 0,12）に自動巡回
   workflow_dispatch:        # 手動でいつでも起動できるボタン
 
 concurrency:
