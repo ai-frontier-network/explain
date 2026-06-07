@@ -63,5 +63,15 @@
     "url": "https://www.cnbc.com/2026/06/05/cramers-week-ahead-stocks-face-pressure-from-rates-oil-and-a-flood-of-new-offerings.html",
     "processed_at": "2026-06-06T02:52:30.146771",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/05/marvell-technology-flex-sp-500-campbells-pool.html",
+    "processed_at": "2026-06-07T03:30:38.879321",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
+    "processed_at": "2026-06-07T03:31:14.441505",
+    "status": "published"
   }
 ]
