@@ -73,5 +73,15 @@
     "url": "https://www.cnbc.com/2026/06/05/meta-stock-sinks-on-report-company-could-raise-tens-of-billions-for-ai.html",
     "processed_at": "2026-06-07T03:31:14.441505",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/08/softbank-samsung-tech-ai-stocks-asia-fall.html",
+    "processed_at": "2026-06-08T03:35:22.314228",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/08/kospi-sk-hynix-samsung-electronics-why-foreign-investors-are-selling.html",
+    "processed_at": "2026-06-08T03:35:45.656868",
+    "status": "published"
   }
 ]
