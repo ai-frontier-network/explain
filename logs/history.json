@@ -98,5 +98,15 @@
     "url": "https://www.cnbc.com/2026/06/11/openai-mulls-slashing-prices-ahead-of-competition-from-anthropic-wsj.html",
     "processed_at": "2026-06-11T03:34:15.852588",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/11/spacex-raises-75-billion-in-record-setting-ipo-ahead-of-nasdaq-debut.html",
+    "processed_at": "2026-06-12T03:33:01.935538",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/06/11/jim-cramer-spacex-unsustainable-debut.html",
+    "processed_at": "2026-06-12T03:33:21.912525",
+    "status": "published"
   }
 ]
