@@ -268,5 +268,15 @@
     "url": "https://www.cnbc.com/2026/07/09/openai-exec-fidji-simo-says-she-will-step-down-and-transition-to-part-time-advisor.html",
     "processed_at": "2026-07-10T02:36:45.723188",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/10/the-ai-race-is-shifting-from-bigger-models-to-cheaper-smarter-systems.html",
+    "processed_at": "2026-07-11T02:12:03.879446",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
+    "processed_at": "2026-07-11T02:12:39.153613",
+    "status": "published"
   }
 ]
