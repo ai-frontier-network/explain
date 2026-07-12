@@ -278,5 +278,15 @@
     "url": "https://www.cnbc.com/2026/07/10/apple-openai-lawsuit-trade-secrets.html",
     "processed_at": "2026-07-11T02:12:39.153613",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/11/the-volatile-ai-rally-marched-higher-but-oil-kept-wall-street-on-edge-last-week.html",
+    "processed_at": "2026-07-12T02:22:43.644551",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/07/11/mag-7-and-software-could-boost-portfolio-in-second-half-etf-action.html",
+    "processed_at": "2026-07-12T02:23:04.386191",
+    "status": "published"
   }
 ]
