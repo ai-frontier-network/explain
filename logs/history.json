@@ -443,5 +443,15 @@
     "url": "https://www.cnbc.com/2026/08/11/cramer-questions-figure-out-market.html",
     "processed_at": "2026-08-12T01:28:09.608917",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/13/south-korea-kospi-bull-market-sk-hynix-samsung-ai-trade.html",
+    "processed_at": "2026-08-13T01:38:39.412192",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/12/jim-cramer-ai-data-center-trade-leading-stocks.html",
+    "processed_at": "2026-08-13T01:38:52.920820",
+    "status": "published"
   }
 ]
