@@ -453,5 +453,15 @@
     "url": "https://www.cnbc.com/2026/08/12/jim-cramer-ai-data-center-trade-leading-stocks.html",
     "processed_at": "2026-08-13T01:38:52.920820",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/14/uber-partners-with-chinas-ponyai-for-2000-robotaxis-in-europe.html",
+    "processed_at": "2026-08-14T01:28:45.641312",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/14/china-tech-global-appeal-apple-ford-catl-deepseek.html",
+    "processed_at": "2026-08-14T01:29:02.955510",
+    "status": "published"
   }
 ]
