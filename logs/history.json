@@ -493,5 +493,15 @@
     "url": "https://www.cnbc.com/2026/08/19/stripe-openrouter-fintech-ai-model-marketplace-.html",
     "processed_at": "2026-08-20T00:58:34.235321",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/20/micron-ceo-ai-changed-memory-industry.html",
+    "processed_at": "2026-08-21T01:02:20.414299",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/20/jim-cramer-jarring-gulf-stock-prices-reality.html",
+    "processed_at": "2026-08-21T01:02:38.952565",
+    "status": "published"
   }
 ]
