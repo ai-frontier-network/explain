@@ -533,5 +533,20 @@
     "url": "https://www.cnbc.com/2026/08/26/jensen-huang-defends-nvidias-growing-financial-support-for-ai-ecosystem-says-the-risk-is-low-.html",
     "processed_at": "2026-08-27T06:59:01.682700",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/28/openai-strategy-india-anthropic-ipo.html",
+    "processed_at": "2026-08-28T08:46:44.383376",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/28/judge-blocks-pentagon-blacklist--anthropic-.html",
+    "processed_at": "2026-08-28T08:46:44.383388",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/28/deepseek-founder-liang-wenfeng-high-flyer-china-tech-ipos-funding.html",
+    "processed_at": "2026-08-28T08:47:05.259207",
+    "status": "published"
   }
 ]
