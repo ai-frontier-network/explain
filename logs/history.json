@@ -558,5 +558,20 @@
     "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
     "processed_at": "2026-08-30T03:19:24.146970",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/30/mike-moore-ag-social-media-settlement-big-tobacco.html",
+    "processed_at": "2026-08-31T03:14:57.005606",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/29/big-lesson-from-this-weeks-earnings-ai-buildout-is-not-a-zero-sum-game.html",
+    "processed_at": "2026-08-31T03:14:57.005617",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/08/29/op-ed-salesforce-revealed-next-battleground-in-ai-its-not-models.html",
+    "processed_at": "2026-08-31T03:15:13.340162",
+    "status": "published"
   }
 ]
