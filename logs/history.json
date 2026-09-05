@@ -603,5 +603,15 @@
     "url": "https://www.cnbc.com/2026/09/03/adobe-anil-chakravarthy-ceo.html",
     "processed_at": "2026-09-04T02:40:32.891420",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html",
+    "processed_at": "2026-09-05T02:41:14.544898",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/09/04/back-to-school-shopping-brought-to-you-by-ai-how-amazon-google-are-positioned-to-win.html",
+    "processed_at": "2026-09-05T02:41:27.939928",
+    "status": "published"
   }
 ]
