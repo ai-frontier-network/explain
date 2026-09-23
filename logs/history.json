@@ -698,5 +698,15 @@
     "url": "https://www.cnbc.com/2026/09/22/tesla-vinfast-ev-vietnam.html",
     "processed_at": "2026-09-22T03:03:56.326411",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/09/22/qualcomm-releases-android-chip-built-for-ai-amid-memory-shortage.html",
+    "processed_at": "2026-09-23T03:03:02.762122",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/09/22/cisco-stock-piper-sandler-price-target.html",
+    "processed_at": "2026-09-23T03:06:42.649205",
+    "status": "published"
   }
 ]
