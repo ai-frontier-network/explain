@@ -758,5 +758,15 @@
     "url": "https://www.cnbc.com/2026/10/02/cerebras-stock-hits-post-ipo-low-on-nvidia-pressure-lockup-expiration.html",
     "processed_at": "2026-10-03T03:33:48.486755",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/03/how-nvidia-micron-and-a-surprising-jobs-report-drove-last-weeks-stock-action.html",
+    "processed_at": "2026-10-04T04:02:28.366551",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/03/meta-muse-shopping-ai-agent.html",
+    "processed_at": "2026-10-04T04:02:51.899066",
+    "status": "published"
   }
 ]
