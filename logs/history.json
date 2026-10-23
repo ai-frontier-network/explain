@@ -868,5 +868,20 @@
     "url": "https://www.cnbc.com/2026/10/22/southeasaisa-singapore-bain-temasek-google-.html",
     "processed_at": "2026-10-22T03:04:14.767692",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/23/sk-hynix-solidigm-ipo-.html",
+    "processed_at": "2026-10-23T03:08:39.225590",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/22/spacex-records-561-million-investment-gain-from-stake-in-boring-co.html",
+    "processed_at": "2026-10-23T03:08:39.225600",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/22/etsy-bans-ai-generated-recipes-patterns-from-its-online-marketplace.html",
+    "processed_at": "2026-10-23T03:08:57.535250",
+    "status": "published"
   }
 ]
