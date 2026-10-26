@@ -898,5 +898,15 @@
     "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
     "processed_at": "2026-10-25T02:58:16.155730",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+    "processed_at": "2026-10-26T02:56:38.722828",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html",
+    "processed_at": "2026-10-26T02:56:54.858367",
+    "status": "published"
   }
 ]
