@@ -918,5 +918,20 @@
     "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html",
     "processed_at": "2026-10-28T03:45:15.856913",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/investingclub/2026/10/28/our-next-steps-for-alphabet-stock-after-earnings-disappoint-at-nearly-every-turn.html",
+    "processed_at": "2026-10-29T04:06:59.203471",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/29/samsung-electronics-third-quarter-earnings.html",
+    "processed_at": "2026-10-29T04:06:59.203481",
+    "status": "skipped"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/28/as-waymo-expands-overseas-it-remains-a-niche-cash-burning-business.html",
+    "processed_at": "2026-10-29T04:07:12.765337",
+    "status": "published"
   }
 ]
