@@ -943,5 +943,10 @@
     "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
     "processed_at": "2026-10-31T03:51:14.481426",
     "status": "published"
+  },
+  {
+    "url": "https://www.cnbc.com/2026/10/31/openai-fundraising-20-billion-valuation.html",
+    "processed_at": "2026-11-01T04:00:46.624741",
+    "status": "published"
   }
 ]
